@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="bg-blue-500 text-white p-4">
+    <header>
       <h1 className="text-3xl p-8 font-mono">Najma Saeed</h1>
       <nav>
         <a href="/">

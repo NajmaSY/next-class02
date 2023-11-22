@@ -15,7 +15,7 @@ export default function Page({ params }: locationParam) {
   return (
     <div>
       <h2>This is my dynamic route paramater: {params.locations} </h2>
-      <Link href="/travel">{`<-- Go back`}</Link>
+      <Link href="/about/travel" className="links">{`<-- Go back`}</Link>
     </div>
   );
 }

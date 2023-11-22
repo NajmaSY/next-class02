@@ -94,29 +94,35 @@ export default function Page({
   }
 
   return (
-    <div>
+    <div className="listTitle">
       <h2>
         Travel Destinations: List of places i would like to go in the future
       </h2>
       <p>{searchParams.sortBy}</p>
       <br />
-      <Link href="/about/travel">Remove the sort</Link>
-      <br />
-      <Link href="/about/travel?sortBy=asc">Sort by ascending</Link>
-      <br />
-      <Link href="/about/travel?sortBy=desc">Sort by descending</Link>
+      <div className="linkSort">
+        <Link href="/about/travel">Remove the sort</Link>
+        <br />
+        <Link href="/about/travel?sortBy=asc">Sort by ascending</Link>
+        <br />
+        <Link href="/about/travel?sortBy=desc">Sort by descending</Link>
+      </div>
       <br />
       <br />
       <br />
       {sortedLocations.map((location) => {
         return (
-          <div key={location.id}>
+          <div key={location.id} className="list">
             <Link href={`/about/travel/${location.name.toLowerCase()}`}>
               {location.name}
             </Link>
           </div>
         );
       })}
+      <br />
+      <Link href="/about/family" className="links">
+        Next Page
+      </Link>
     </div>
   );
 }

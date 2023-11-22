@@ -8,7 +8,7 @@ export default function Page() {
         I have a very large family with 3 brothers, 3 sisters, and many aunts,
         uncles and cousins{" "}
       </p>
-      <Link href="/" className="text-gray-700 bg-blue-300 aspect-square">
+      <Link href="/" className="links">
         Go back to Home
       </Link>
     </div>

@@ -26,10 +26,7 @@ export default function Page() {
         cake. I love Baking, and I'm always up for making all types of cakes for
         my family and friends.
       </p>
-      <Link
-        href="about/travel"
-        className="text-gray-700 bg-blue-300 aspect-square"
-      >
+      <Link href="about/travel" className="links">
         Next Page
       </Link>
       <br />

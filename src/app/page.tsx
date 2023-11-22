@@ -6,7 +6,7 @@ export default function Home() {
       <h1 className="text-3xl font-bold mb-4">Welcome to My Blog!</h1>
       <p className="mt-12 mb-12 text-3xl text-center dark:text-white">
         Hi there! 👋 I'm Najma, a passionate developer based in Liverpool.
-        <Link href="/about" className="text-gray-700 bg-blue-300 aspect-square">
+        <Link href="/about" className="links">
           Click here
         </Link>
         to go to the About page to learn a little bit about me:

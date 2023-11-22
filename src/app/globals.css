@@ -24,4 +24,45 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  background-image: url("https://images.unsplash.com/photo-1607457561901-e6ec3a6d16cf?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.links {
+  font-weight: 600;
+  color: white;
+  box-shadow: rgba(216, 112, 147, 0.201);
+}
+
+.links:hover {
+  color: rgba(164, 61, 164, 0.736);
+  font-size: 1.2rem;
+}
+
+.listTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 15px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.listTitle h2 {
+  font-weight: 600;
+}
+
+.linkSort {
+  display: flex;
+  font-weight: 500;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: rgba(245, 245, 220, 0.205);
 }
